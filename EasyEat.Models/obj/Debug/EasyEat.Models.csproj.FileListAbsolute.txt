@@ -1,0 +1,14 @@
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Models\bin\Debug\EasyEat.Models.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Models\bin\Debug\EasyEat.Models.pdb
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Models\obj\Debug\EasyEat.Models.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Models\obj\Debug\EasyEat.Models.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Models\obj\Debug\EasyEat.Models.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Models\bin\Debug\EasyEat.Models.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Models\bin\Debug\EasyEat.Models.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Models\obj\Debug\EasyEat.Models.csprojAssemblyReference.cache
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Models\obj\Debug\EasyEat.Models.csproj.CoreCompileInputs.cache
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Models\obj\Debug\EasyEat.Models.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Models\obj\Debug\EasyEat.Models.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Models\obj\Debug\EasyEat.Models.csproj.CopyComplete

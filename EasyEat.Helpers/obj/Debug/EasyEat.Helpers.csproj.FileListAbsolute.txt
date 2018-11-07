@@ -1,0 +1,14 @@
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Helpers\bin\Debug\EasyEat.Helpers.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Helpers\bin\Debug\EasyEat.Helpers.pdb
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Helpers\obj\Debug\EasyEat.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Helpers\obj\Debug\EasyEat.Helpers.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.Helpers\obj\Debug\EasyEat.Helpers.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Helpers\bin\Debug\EasyEat.Helpers.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Helpers\bin\Debug\EasyEat.Helpers.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Helpers\obj\Debug\EasyEat.Helpers.csprojAssemblyReference.cache
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Helpers\obj\Debug\EasyEat.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Helpers\obj\Debug\EasyEat.Helpers.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Helpers\obj\Debug\EasyEat.Helpers.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Helpers\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Helpers\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Helpers\obj\Debug\EasyEat.Helpers.csproj.CopyComplete

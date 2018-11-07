@@ -1,0 +1,50 @@
+{
+  "app": {
+    "name": "LA RUTA COLOMBIA"
+  },
+  "nav": {
+    "tipoDoc": "Document Type*",
+    "numDoc": "Id*",
+    "buscar": "Search",
+    "nombres": "Name*",
+    "apellidos": "Last Name*",
+    "genero": "Gender*",
+    "masculino": "Male*",
+    "femenino": "Female*",
+    "TipoDeSan": "Blood Type*",
+    "cedulaC": "Certificate of Citizenship*",
+    "pasaporte": "Passport*",
+    "tarjetaDeIden": "Identity Card*",
+    "cedulaDeExtr": "Certificate of Alien*",
+    "factoRH": "RH Factor*",
+    "fechaNaci": "Birthdate*",
+    "email": "E-mail*",
+    "confirmarEmail": "Confirmar E-mail*",
+    "pais": "Country*",
+    "ciudad": "City*",
+    "departamento": "Department*",
+    "direccion": "Address*",
+    "telefono": "Phone*",
+    "celular": "Cell Phone*",
+    "empresa": "Company*",
+    "cargo": "Position*",
+    "eps": "EPS*",
+    "marcaBici": "Bicycle brand*",
+    "marcaOTrans": "Group brand or transmission of your bike*",
+    "referenciaGrupo": "Reference Group*",
+    "marcaCiclocomputador": "Brand Cyclocomputer*",
+    "referenciaCiclocomputador": "Cyclocomputer reference*",
+    "categoria": "Category*",
+    "subcategoria1": "Sub-Categoria*",
+    "equipo1": "Equipo*",
+    "total": "Total",
+    "autorizacion": "I authorize the use of personal information*",
+    "si": "Yes",
+    "select": "Select"
+  },
+  "buttons": {
+    "anterior": "Back",
+    "siguiente": "Next",
+    "finalizar": "Finish"
+  }
+}

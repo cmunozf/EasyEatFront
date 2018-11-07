@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_LayoutEmpty.cshtml";
+
+    List<EasyEat.Models.RestauranteModel> list = (List<EasyEat.Models.RestauranteModel>)ViewData["RestaurantData"];
+    List<EasyEat.Models.ProductoModel> listProductos = (List<EasyEat.Models.ProductoModel>)ViewData["ProductosData"];
+
+}
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link type="text/css" href="~/Content/jquery.keypad.css" rel="stylesheet">
+<link href="~/Content/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+<style>
+
+    .CenterDiv {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 700px;
+        height: 500px;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+
+    .Title {
+        font-family: Anton,sans-serif !important;
+        font-size: 45px;
+        color: white;
+        line-height: 1.2;
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding-bottom: 54px;
+        padding-top: 30px;
+        letter-spacing: 2px;
+    }
+
+
+    .btn {
+        background: #2b2c2d !important;
+        border-radius: 5px;
+        border: 1px solid transparent !important;
+        margin: 25px auto !important;
+        display: table !important;
+        color: #fff !important;
+        padding: 5px 15px !important;
+        font-size: 24px !important;
+        font-weight: 400 !important;
+        width: 220px;
+        height: 50px;
+        font-family: Anton,sans-serif !important;
+    }
+
+
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background: #FF5656;
+    }
+</style>
+<body>
+    <div class="CenterDiv">
+        <label id="title1" class="Title">Seleccionar Restaurante</label>
+        @foreach (var item in list)
+        {
+
+            <button class="btn" type="button" onclick="selectRestaurant('@item.nombre')">@item.nombre</button>
+        }
+    </div>
+    <div hidden class="CenterDiv" id="CenterInfo" style="background-color:white!important; height: 340px!important;">
+        @foreach (var item in listProductos)
+        {
+            <button class="btn" type="button" onclick="selectProduct('@item.nombre','@item.precio')">@item.nombre - @item.precio</button>
+        }
+    </div>
+
+    <div hidden class="CenterDiv" id="CenterInfoNuevo" style="background-color:white!important; height: 340px!important;">
+       
+            <button class="btn" type="button" onclick="salir()">Desea Factura?</button>
+            <button class="btn" type="button" onclick="salir()">Pago En Linea</button>
+        
+    </div>
+
+</body>
+@section Scripts {
+    <script src="~/Scripts/plugins/sweetalert/sweetalert.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.plugin.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.keypad.js"></script>
+    <script type="text/javascript">
+
+        function selectRestaurant(nombre) {
+            document.getElementById('title1').innerHTML = 'Seleccionar Producto';
+            $("#CenterInfo").show();
+        }
+
+        function selectProduct(nombre) {
+            document.getElementById('title1').innerHTML = 'Gracias';
+            $("#CenterInfo").hide();
+            $("#CenterInfoNuevo").show();
+
+        }
+
+        function salir() {
+            window.location.href = "http://localhost:59245/";
+        }
+    </script>
+}

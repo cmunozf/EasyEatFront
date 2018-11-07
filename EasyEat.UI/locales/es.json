@@ -1,0 +1,51 @@
+{
+  "app": {
+    "name": "LA RUTA COLOMBIA"
+  },
+  "nav": {
+    "tipoDoc": "Tipo de Documento*",
+    "numDoc": "Número Documento*",
+    "buscar": "Buscar",
+    "nombres": "Nombres*",
+    "apellidos": "Apellidos*",
+    "genero": "Género*",
+    "masculino": "Masculino*",
+    "femenino": "Femenino*",
+    "TipoDeSan": "Tipo de Sangre*",
+    "cedulaC": "Cédula de Ciudadanía*",
+    "pasaporte": "Pasaporte*",
+    "tarjetaDeIden": "Tarjeta de Identidad*",
+    "cedulaDeExtr": "Cédula de Extranjería*",
+    "factoRH": "Factor RH*",
+    "fechaNaci": "Fecha de Nacimiento*",
+    "email": "E-mail*",
+    "confirmarEmail": "Confirmar E-mail*",
+    "pais": "País*",
+    "ciudad": "Ciudad*",
+    "departamento": "Departmento*",
+    "direccion": "Dirección*",
+    "telefono": "Telefono*",
+    "celular": "Celular*",
+    "empresa": "Empresa*",
+    "cargo": "Cargo*",
+    "eps": "Empresa prestadora de servicios de salud*",
+    "marcaBici": "Marca de bicicleta*",
+    "marcaOTrans": "Marca del grupo o transmisión de tu bici*",
+    "referenciaGrupo": "Referencia Grupo*",
+    "marcaCiclocomputador": "Marca Ciclocomputador*",
+    "referenciaCiclocomputador": "Referencia Ciclocomputador*",
+    "categoria": "Categoria*",
+    "subcategoria1": "Sub-Categoria*",
+    "equipo1": "Equipo*",
+    "total": "Total",
+    "autorizacion": "Autorizo el uso de información personal para envío de correspondencia*",
+    "si": "Si",
+    "select": "Seleccionar"
+  },
+  "buttons": {
+    "anterior": "Anterior",
+    "siguiente": "Siguiente",
+    "finalizar": "Finalizar"
+
+  }
+}

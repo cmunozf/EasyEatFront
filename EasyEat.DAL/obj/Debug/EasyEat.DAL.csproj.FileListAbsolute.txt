@@ -1,0 +1,32 @@
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.DAL.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.DAL.pdb
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.Helpers.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.Models.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.Helpers.pdb
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.Models.pdb
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.csproj.CopyComplete
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.dll
+C:\Users\Administrador\Documents\COMPONENTES\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.DAL.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.DAL.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.Helpers.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.Models.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.Helpers.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\EasyEat.Models.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.csprojAssemblyReference.cache
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.csproj.CopyComplete
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\obj\Debug\EasyEat.DAL.pdb
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.DAL\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,148 @@
+@model EasyEat.Models.ProductoModel
+@{
+    ViewBag.Title = ViewData["Action"];
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-sm-4">
+        <h2>@ViewData["Action"]</h2>
+        <ol class="breadcrumb">
+            <li>
+                @Html.ActionLink("Producto", "Index")
+            </li>
+            <li class="active">
+                <strong>@ViewData["Action"]</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-sm-8">
+        <div class="title-action">
+            <a class="btn btn-primary" href="/Producto"><i class="fa fa-chevron-left"></i> Regresar</a> 
+        </div>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>@ViewData["Action"]</h5>
+                </div>
+                <div class="ibox-content">
+				@using (Html.BeginForm("Edit", "Producto", FormMethod.Post, new { id = "MaintenanceForm" }))
+				{
+					@Html.AntiForgeryToken()
+				 <div class="form-horizontal">
+					@Html.ValidationSummary(true)
+
+					   @Html.HiddenFor(model => model.ProductoId)
+      <div id="valnombre"  class="form-group">
+           @Html.LabelFor(model => model.nombre, new { @class = "control-label col-md-2" })
+           <div class="col-md-10">
+            <input type="text" id ="nombre" name ="nombre" class="form-control" placeholder ="nombre" value ="@Model.nombre" required ="" >
+             @Html.ValidationMessageFor(model => model.nombre)
+           </div>
+     </div>
+      <div id="valprecio" class="form-group">
+           @Html.LabelFor(model => model.precio, new { @class = "control-label col-md-2" })
+           <div class="col-md-10">
+            <input type="text" id ="precio" name ="precio" class="form-control" placeholder ="precio" value ="@Model.precio" required ="" >
+             @Html.ValidationMessageFor(model => model.precio)
+           </div>
+     </div>
+      <div id="valcategoria" class="form-group">
+           @Html.LabelFor(model => model.categoria, new { @class = "control-label col-md-2" })
+           <div class="col-md-10">
+            <input type="text" id ="categoria" name ="categoria" class="form-control" placeholder ="categoria" value ="@Model.categoria" required ="" >
+             @Html.ValidationMessageFor(model => model.categoria)
+           </div>
+     </div>
+      <div id="valrestaurante" class="form-group">
+           @Html.LabelFor(model => model.restaurante, new { @class = "control-label col-md-2" })
+           <div class="col-md-10">
+            <input type="text" id ="restaurante" name ="restaurante" class="form-control" placeholder ="restaurante" value ="@Model.restaurante" required ="" >
+             @Html.ValidationMessageFor(model => model.restaurante)
+           </div>
+     </div>
+
+					<div class="form-group">
+					   <div class="col-md-offset-2 col-md-10">
+						<button class="btn btn-primary btn-sm" id="btnSend" name="btnSend" type="button"><i class="fa fa-save"></i> @ViewData["Btn"]</button>
+						<a class="btn btn-white btn-sm" href="/Producto"><i class="fa fa-exclamation-circle"></i> Cancelar</a>
+
+					   </div>
+					</div>
+				  </div>
+				}
+
+		       </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script type="text/javascript">
+    $(document).ready(function () {
+
+		toastr.options = {
+            "closeButton": false,
+            "debug": true,
+            "positionClass": "toast-bottom-full-width",
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+
+		/// validate form
+        $("#btnSend").click(function () {
+
+            var message = "";
+
+			/// Clear all error marks
+                $("#valnombre").attr('class', 'form-group');
+                $("#valprecio").attr('class', 'form-group');
+                $("#valcategoria").attr('class', 'form-group');
+                $("#valrestaurante").attr('class', 'form-group');
+            
+			/// Validate every control in the ui
+
+            if ($("#nombre").val() == "" || ($("#nombre").val() == "0")){ 
+                message = "s"
+                $("#valnombre").attr('class', 'form-group has-error')
+             }
+            if ($("#precio").val() == "" || ($("#precio").val() == "0")) {
+                message = "s"
+                $("#valprecio").attr('class', 'form-group has-error')
+             }
+            if ($("#categoria").val() == "" || ($("#categoria").val() == "0")) {
+                message = "s"
+                $("#valcategoria").attr('class', 'form-group has-error')
+             }
+            if ($("#restaurante").val() == "" || ($("#restaurante").val() == "0")) {
+                message = "s"
+                $("#valrestaurante").attr('class', 'form-group has-error')
+             }
+
+            if (message == "") {
+                document.forms['MaintenanceForm'].submit()
+            }
+            else {
+                toastr.error('Faltan datos por completar');
+            }
+        });
+    });
+
+</script>
+
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

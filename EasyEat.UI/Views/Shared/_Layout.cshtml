@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>E&S|@ViewBag.Title</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <!-- Add local styles, mostly for plugins css file -->
+    @if (IsSectionDefined("Styles"))
+    {@RenderSection("Styles", required: false)}
+
+    <!-- Add jQuery Style direct - used for jQGrid plugin -->
+    <link href="@Url.Content("~/Scripts/plugins/jquery-ui/jquery-ui.css")" rel="stylesheet" type="text/css" />
+
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/font-awesome/css")
+</head>
+<body id="idBody">
+
+    <!-- Wrapper-->
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav id="idnav" class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element">
+                            <span>
+                                <img alt="image" class="img-circle" src="~/Images/Userlogin.png" />
+                            </span>
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="clear">
+                                    <span class="block m-t-xs">
+                                        <strong class="font-bold">@ViewData["UserName"]</strong>
+                                        <br />
+                                        <small>@ViewData["UserProfile"]</small>
+                                        <br />
+
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="logo-element">
+                            E&S
+                        </div>
+                    </li>
+
+                    <li class="@Html.IsSelected(action: "Index")">
+                        <a href="@Url.Action("Index", "Home" )"><i class="fa fa-dashboard"></i> <span class="nav-label">Inicio</span> </a>
+                    </li>
+
+                    <li class="@Html.IsSelected(action: "Restaurante")">
+                        <a href="@Url.Action("Index", "Restaurante")"><i class="fa fa-file-archive-o"></i> <span class="nav-label">Restaurante</span> </a>
+                    </li>
+
+                    <li class="@Html.IsSelected(action: "Producto")">
+                        <a href="@Url.Action("Index", "Producto" )"><i class="fa fa-cart-plus"></i> <span class="nav-label">Producto</span> </a>
+                    </li>
+
+                    <li class="@Html.IsSelected(action: "Factura")">
+                        <a href="@Url.Action("Index", "Factura" )"><i class="fa fa-file"></i> <span class="nav-label">Factura</span> </a>
+                    </li>
+
+                    <li class="@Html.IsSelected(action: "Pago")">
+                        <a href="@Url.Action("Index", "Pago")"><i class="fa fa-dollar"></i> <span class="nav-label">Pago</span> </a>
+                    </li>
+
+                    <li class="@Html.IsSelected(action: "Pedido")">
+                        <a href="@Url.Action("Index", "Pedido")"><i class="fa fa-file"></i> <span class="nav-label">Pedido</span> </a>
+                    </li>
+
+                    <li class="@Html.IsSelected(action: "HacerPedido")">
+                        <a href="@Url.Action("Index", "HacerPedido")"><i class="fa fa-file-archive-o"></i> <span class="nav-label">Hacer Pedido</span> </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Page wraper -->
+        <div id="page-wrapper" class="gray-bg">
+
+            <!-- Top Navbar -->
+            @*@Html.Partial("_TopNavbar")*@
+
+            <!-- Main view  -->
+            @RenderBody()
+
+            <!-- Footer -->
+            @Html.Partial("_Footer")
+
+        </div>
+        <!-- End page wrapper-->
+
+    </div>
+    <!-- End wrapper-->
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/plugins/metsiMenu")
+    @Scripts.Render("~/plugins/pace")
+    @Scripts.Render("~/plugins/slimScroll")
+    @Scripts.Render("~/bundles/inspinia")
+    @Scripts.Render("~/plugins/sweetAlert")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+<!-- toast files -->
+
+
+<script src="~/Scripts/toastr.js"></script>
+<link href="~/Content/toastr.css" rel="stylesheet" />
+@Html.Partial("Message")
