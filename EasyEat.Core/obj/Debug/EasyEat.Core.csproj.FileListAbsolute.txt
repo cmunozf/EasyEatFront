@@ -26,3 +26,18 @@ C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyE
 C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Core\obj\Debug\EasyEat.Core.pdb
 C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Core\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Edercmf\Documents\COMPONENTES\PRACTICA\Entrega 3\FrontEnd\EasyEat\EasyEat.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\EasyEat.Core.dll
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\EasyEat.Core.pdb
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\EasyEat.DAL.dll
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\EasyEat.Helpers.dll
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\EasyEat.Models.dll
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\EasyEat.DAL.pdb
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\EasyEat.Helpers.pdb
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\EasyEat.Models.pdb
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\obj\Debug\EasyEat.Core.csprojAssemblyReference.cache
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\obj\Debug\EasyEat.Core.csproj.CoreCompileInputs.cache
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\obj\Debug\EasyEat.Core.csproj.CopyComplete
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\obj\Debug\EasyEat.Core.dll
+C:\Users\Edercmf\Documents\EasyEatFront\EasyEat.Core\obj\Debug\EasyEat.Core.pdb
